@@ -19,15 +19,6 @@ header {
     box-sizing: border-box;
 }
 
-#nome {
-    color: #FFFFFF;
-    font-weight: 300;
-}
-
-#titulo {
-    font-size: 40px;
-}
-
 nav {
     margin: 5%;
     position: absolute;
@@ -36,11 +27,16 @@ nav {
     font-weight: bold;
 }
 
-
 main {
     width: 50vw;
     margin: 0px auto;
     padding: 74px;
+}
+
+br {
+    content: "";
+    display: block;
+    margin: 25px;
 }
 
 .imagem {
@@ -55,13 +51,16 @@ main {
     color: #1f2123;
 }
 
+#nome {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+#titulo {
+    font-size: 40px;
+}
+
 #texto-resumido {
     font-size: 15px;
     color: #4f5257;
-}
-
-br {
-    content: "";
-    display: block;
-    margin: 25px;
 }
