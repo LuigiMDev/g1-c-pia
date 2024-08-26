@@ -9,7 +9,7 @@
 
 header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 74px;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ nav {
 }
 
 main {
-    width: 50vw;
+    width: 648px;
     margin: 0px auto;
     padding: 74px;
 }
@@ -63,4 +63,11 @@ br {
 #texto-resumido {
     font-size: 15px;
     color: #4f5257;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        margin: 0px;
+        padding: 74px 10px;
+    }
 }
