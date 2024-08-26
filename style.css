@@ -72,4 +72,7 @@ br {
         padding: 74px 10px;
         box-sizing: border-box;
     }
+    #titulo {
+        font-size: 28px;
+    }
 }
